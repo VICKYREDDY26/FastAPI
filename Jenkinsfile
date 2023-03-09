@@ -11,6 +11,7 @@ pipeline {
       steps {
         sh '''ls -a
 '''
+        echo '"Running Shell-Script"'
       }
     }
 
