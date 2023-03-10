@@ -10,7 +10,7 @@ async def read_root():
     return {"Hello": "World"}
 
 
-# added the @app.post decorator to define the endpoint  to get posts items.
+# added the @app.post  decorator to define the endpoint  to get posts items.
 @app.get("/items/{item_id}")
 def get_post_items():
     posts = [
